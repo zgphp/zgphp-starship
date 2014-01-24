@@ -1,0 +1,47 @@
+{% extends "default.html" %}
+
+{% block inner %}
+<div class="post">
+    <h1>{{ page.title }}</h1>
+
+    <p class="meta">Objavljeno: <em>{{ page.date | date }}</em></p>
+
+    {% if page.meta.vimeo_id %}
+    <div class="responsive-video">
+        <iframe src="http://player.vimeo.com/video/{{ page.meta.vimeo_id }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    </div>
+    {% endif %}
+
+    <hr />
+
+    {% block content %}{% endblock %}
+
+    <div class="clear">&nbsp;</div>
+
+    {% if site.config.disqus.enabled %}
+    <hr />
+
+    <div class="post-comments">
+        {% include disqus.html %}
+    </div>
+    {% endif %}
+
+    <hr />
+
+    <div class="post-navigation">
+        <div class="pull-left">
+        {% if page.prev %}
+            <a href="{{ page.prev.url }}" title="Previous Post: {{ page.prev.title }}">&laquo; {{ page.prev.title }}</a>
+        {% endif %}
+        </div>
+
+        <div class="pull-right">
+        {% if page.next %}
+            <a href="{{ page.next.url }}" title="next Post: {{ page.next.title }}">{{ page.next.title }} &raquo; </a>
+        {% endif %}
+        </div>
+
+        <div class="clear">&nbsp;</div>
+    </div>
+</div>
+{% endblock %}

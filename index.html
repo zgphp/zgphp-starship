@@ -1,0 +1,40 @@
+---
+template: no-sidebar.html
+---
+
+<div class="row">
+    <div class="col-md-6 text-center">
+        <img src="/images/logo/zgphp.png" alt="ZgPHP Meetup" />
+    </div>
+    <div class="col-md-6">
+        <h1>Druženja PHP developera<br />iz Zagreba i regije</h1>
+        <p>We are a team of PHP developers, working on different projects in different companies, versatile in choice of frameworks or technologies we use.</p>
+
+        <hr />
+
+        <div class="row">
+            <div class="col-md-6">
+                {% include "next-meetup.html" %}
+            </div>
+            <div class="col-md-6">
+                <h4>Postani predavač</h4>
+                <p>Uvijek tražimo nove predavače.<br />Predavačko iskustvo nije preduvjet.</p>
+                <a class="btn btn-small btn-default btn-block" href="mailto:zgphpmeetup@gmail.com?subject=Prijava predavanja">Prijavi predavanje</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        {% include "frontpage/news.html" %}
+    </div>
+    <div class="col-md-4">
+        {% include "frontpage/talks.html" %}
+    </div>
+    <div class="col-md-4">
+        {% include "frontpage/tweets.html" %}
+    </div>
+</div>

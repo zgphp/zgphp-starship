@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+    {% include "navigation.html" %}
+
+    <div id="wrap">
+        <div id="main" class="container">
+            {% block inner %}
+                {% block content %}{% endblock %}
+            {% endblock %}
+        </div>
+    </div>
+
+    {% include "footer.html" %}
+
+{% endblock %}
