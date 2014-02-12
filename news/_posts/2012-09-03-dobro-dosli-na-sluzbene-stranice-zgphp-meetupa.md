@@ -1,5 +1,5 @@
 ---
-date: 2012-09-03 23:18:47+00:00
+date: 2012-09-03 22:18:47+01:00
 template: post.html
 slug: dobro-dosli-na-sluzbene-stranice-zgphp-meetupa
 title: Dobro došli na službene stranice ZgPHP meetupa

@@ -10,4 +10,13 @@ $(document).ready(function() {
            $(this).attr('target', '_blank');
        }
     });
+
+    // Kickstart galleries
+    $('a.gallery').colorbox({
+        'maxWidth': "90%",
+        'maxHeight': "90%",
+        'rel': 'group1',
+        'transition': "none",
+        'fadeOut': 0
+    });
 });

@@ -1,2 +1,6 @@
-name: My New Web
+name: ZgPHP Meetup
 url: http://zgphp.org/
+
+disqus:
+    enabled: true
+    shortname: zgphp
