@@ -1,10 +1,7 @@
 ---
+title: Luka Kladarić - LAMP Scaling 101
 date: 2012-10-19 12:39:41+00:00
 template: post.html
-slug: lamp-scaling-10
-title: LAMP Scaling 101
-tags:
-- video
 vimeo_id: 51802161
 image: http://b.vimeocdn.com/ts/357/287/357287644_1280.jpg
 ---

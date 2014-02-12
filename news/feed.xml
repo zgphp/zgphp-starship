@@ -1,8 +1,8 @@
 ---
-layout: none
+template: none
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-{% include category/feed.xml with {
+{% include "category/feed.xml" with {
     'the_name': 'News',
-    'the_category': 'site.categories.news' }
+    'the_category': site.categories.news }
 %}

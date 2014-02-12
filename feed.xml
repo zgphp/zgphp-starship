@@ -11,8 +11,8 @@ template: none
 		{% for post in site.posts|slice(0, 10) %}
 			<item>
 				<title>{{ post.title|escape('xml') }}</title>
-				<description>{{ post.content|escape('xml') }}</description>
-				<pubDate>{{ post.date|date }}</pubDate>
+				<description>{{ post.excerpt|escape('xml') }}</description>
+				<pubDate>{{ post.date|date("D, d M Y H:i:s O") }}</pubDate>
 				<link>{{ site.url }}{{ post.url }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 			</item>

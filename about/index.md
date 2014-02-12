@@ -2,6 +2,10 @@
 template: default.html
 ---
 
-# Hello there
+# About ZgPHP
 
-This is us.
+## Organizers
+
+{% include "organizers.html" %}
+
+That's us.

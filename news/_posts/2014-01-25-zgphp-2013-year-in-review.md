@@ -9,16 +9,15 @@ last year. This time we decided to write it down and share it with you. So, what
 did we do in 2013?
 
 In some sense, 2013 was a make it || break it year. With Ivan joining the ZgPHP
-organization team we finally had time &amp; resources to focus on some community
+organization team we finally had time and resources to focus on some community
 events outside of our regular monthly meetups.
 
-In April &amp;&amp; June we organized 2 workshops for developers interested in
-learning new frameworks. The first was held by Maurizio Domba, a core Yii
-developer, and taught us how to work with Yii. In the second, Antonio Perić did
-an introduction to Symfony2. Both workshops were a total blast and we do plan to
-organize more in future. There was a third workshop planned for the autumn of
-the 2013 but due to our engagement with organizing two conferences we just
-didn’t have the time.
+In April && June we organized 2 workshops for developers interested in learning
+new frameworks. The first was held by Maurizio Domba, a core Yii developer, and
+taught us how to work with Yii. In the second, Antonio Perić did an introduction
+to Symfony2. Both workshops were a total blast and we do plan to organize more
+in future. There was a third workshop planned for the autumn of the 2013 but due
+to our engagement with organizing two conferences we just didn’t have the time.
 
 Yes, we organized two conferences in autumn of 2013. We decided to celebrate the
 second anniversary of ZgPHP Meetups by organizing a [ZgPHP
