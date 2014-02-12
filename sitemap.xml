@@ -1,18 +1,18 @@
 ---
-layout: none
+template: none
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <!-- Pages -->
     {% for page in site.pages %}
-    {% if page.layout != 'none' %}
-    {% assign url = page.url | remove:'index.html' %}
+    {% if page.template != 'none' %}
+
     <url>
-        <loc>{{ site.url }}{{ url }}</loc>
+        <loc>{{ site.url }}{{ page.url }}</loc>
         <changefreq>daily</changefreq>
-        <lastmod>{{ site.time | date:"%Y-%m-%d"}}</lastmod>
-        {% if url == '/' %}
+        <lastmod>{{ site.time|date("Y-m-d") }}</lastmod>
+        {% if page.url == '/' %}
         <priority>1</priority>
         {% endif %}
     </url>
